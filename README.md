@@ -3,5 +3,3 @@
 
 # Ссылка на сайт:
 <a href="https://lullaiza.github.io/Art-practice/" target="_blank"> Тренажёрный центр лени «Офлайн» </a>
-12:55
-Forwarded from Ли́са 🦊
