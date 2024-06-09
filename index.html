@@ -7,58 +7,123 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header_inner">
-                <div class="logo">Слизь</div>
-                <nav class="nav">
-                    <a href="#back" class="menu">На главную</a>
-                    <a href="#block2" class="menu">О нас</a>
-                    <a href="#" class="menu">Афиша</a>
-                    <a href="#block3" class="menu">Наши мероприятия</a>
-                    <a href="#" class="button_menu">Контакты</a>
-                </nav>
-            </div>
-        </div>
+
+
+    <header>     
+            <nav>
+            <h2 class="modern-font green logo">СЛИЗЬ</h2>
+            <ul class="nav">
+                <li><a href="#first" class="menu">На главную</a></li>
+                <li><a href="#about" class="menu">О нас</a></li>
+                <li><a href="#contacts" class="menu">Афиша</a></li>
+                <li><a href="#posters" class="menu">Наши мероприятия</a></li>
+                <li><button class="button-menu menu">Контакты</button></li>
+            </ul>
+            </nav>
+            <article class="first" id="first">
+                <h1>СЛИЗЬ</h1>
+                <span class="subtitle">МОДНОЕ АГЕНТСТВО</span>
+                <hr>
+                <button class="button button2">Ближайшие мероприятия</button>
+                <hr>
+            </article>
     </header>
-    <div id="back" class="back">
-        <div class="container">
-            <h1 class="title">СЛИЗЬ</h1>
-            <h2 class="subtitle">МОДНОЕ АГЕНТСТВО</h2>
-            <hr color="black"/>
-            <h3 href="#" class="button">Ближайшие мероприятия</h3>
-            <hr color="black"/>
-        </div>
-    </div>
-    <div id="block2" class="block2">
-        <div class="container">
-            <h1 class="title2">Пора заЛИПНУТЬ</h1>
-            <p class="insc">Модное агентство ищет слизь для переосмысления стандартов </br>
-                красоты. Наши липкие показы – это не просто демонстрация </br>
-                одежды, а определенная идея. Мы сталкиваем противоположные </br> 
-                миры с помощью игры контрастов и отсутствия рамок.</p>
-                <p class="insc2">Слизь – эпатажная идея, сочетание несочетаемого, </br> 
-                    а также мировой fashion-тренд.</p>
-                    <hr color="black"/>
-        </div>
-    </div>
-    <div id="block3" class="block3">
-        <div class="container">
-            <h1 class="title3">Липкая мода</h1>
-            <p class="insc3">Нижний Новгород </br>
-                Большая покровская, 22/12 </br>
-                12:00 – 00:00 </br>
-                20.02.24</p>
-                <h3 href="#" class="button3">Записаться</h3>
-                <p class="insc3">По всем вопросам – @slizzzz.com</p>
-            <h1 class="title3">Липкий кастинг</h1>
-             <p class="insc3">Нижний Новгород </br>
-                Звездинка, 22 </br>
-                12:00 – 00:00 </br>
-                22.02.24</p>
-                    <h3 href="#" class="button3">Записаться</h3>
-                    <p class="insc4">По всем вопросам – @slizzzz.com</p>
-        </div>
-    </div>
+
+<main> 
+
+    <section id="about" class="about">
+            <h3>Пора заЛИПНУТЬ</h3>
+            <p class="insc about-text1">
+                Модное агентство ищет слизь для переосмысления стандартов <br>
+                красоты. Наши липкие показы – это не просто демонстрация <br>
+                одежды, а определенная идея. Мы сталкиваем противоположные <br> 
+                миры с помощью игры контрастов и отсутствия рамок.
+            </p>
+            <p class="insc about-text2">
+                Слизь – эпатажная идея, сочетание несочетаемого, <br> 
+                а также мировой fashion-тренд.
+            </p>
+            <hr>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <article class="in">
+            <h3 class="contacts-title">Липкая мода</h3>
+            <address class="insc">
+                Нижний Новгород <br>
+                Большая Покровская, 22/12
+            </address>
+            <time datetime="2020-02-20" class="insc">
+                12:00 – 00:00
+            </time>
+            <time datetime="2020-02-20" class="insc">
+                20.02.24
+            </time>
+            <button class="button button-contacts insc">Записаться</button>
+            <p class="insc">По всем вопросам –
+                <a href="mailto:@slizzzz.com" class="insc">@slizzzz.com</a>
+            </p>
+            <h3 class="contacts-title">Липкий кастинг</h3>
+            <address class="insc">
+                Нижний Новгород <br>
+                Звездинка, 22
+            </address>
+            <time datetime="2020-02-20" class="insc">
+                12:00 – 00:00
+            </time>
+            <time datetime="2020-02-20" class="insc">
+                20.02.24
+            </time>
+            <button class="button button-contacts insc">Записаться</button>
+            <p class="insc contacts-end">По всем вопросам –
+                <a href="mailto:@slizzzz.com" class="insc">@slizzzz.com</a>
+            </p>
+        </article>
+    </section>
+
+    <section id="posters" class="posters">
+            <h4 class="modern-font green">СЛИЗЬ ПРЕДСТАВЛЯЕТ</h4>
+        <article class="in">
+            <h5 class="insc-w">Липкая мода</h5>
+            <span class="insc-w poster-text">Первый в мире показ мод с участием слизи</span>
+            <div class="poster2">
+                <img src="img/poster1.png" class="poster1" alt="плакат №1">
+                <img src="img/poster2.png" class="poster1" alt="плакат №2">
+            </div>
+            <h5 class="insc-w">Липкий кастинг</h5>
+            <span class="insc-w poster-text">Предложение, от которого сложно отказаться</span>
+            <div class="poster2">
+                <img src="img/poster3.png" class="poster1" alt="плакат №3">
+                <img src="img/poster4.png" class="poster1" alt="плакат №4">
+            </div>
+        </article>
+            <span class="big-font modern-font green">СЛИЗЬ</span>
+    </section>
+
+</main>
+
+    <footer>
+        <h6>Связь с нами</h6>
+        <article class="in footer-in">
+            <div class="left">
+            <address class="insc-f address-f">
+                Нижний Новгород <br>
+                Слаймовая, 44
+            </address>
+            <a href="tel:+79203333333" class="insc-f">+7 920 333 33 33</a>
+            <p class="insc-f"><a href="mailto:reginaruzieva@gmail.com" class="insc-f">reginaruzieva@gmail.com</a>
+                – по вопросам сотрудничества
+            </p>
+            <p class="insc-f"><a href="mailto:@slizzzz.com" class="insc-f">@slizzzz.com</a>
+                – по вопросам о мероприятиях
+            </p>
+            </div>
+            <div class="right">
+                <h2 class="modern-font right-content">СЛИЗЬ</h2>
+                <span class="insc-f right-content">Модное агенство</span>
+            </div>
+        </article>
+    </footer>
+
 </body>
 </html>
