@@ -321,7 +321,7 @@ footer {
 /* animation */
 
 .button-menu, .button, 
-.menu, a, address, time {
+.menu, a, time {
     transition: 0.4s;
 }
 
@@ -331,7 +331,7 @@ footer {
     transition: 0.4s;
 }
 
-.menu:hover, a:hover, address:hover, time:hover {
+.menu:hover, a:hover, time:hover {
     color: #ADFF00;
     transition: 0.4s;
 }
